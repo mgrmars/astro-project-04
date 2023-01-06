@@ -1,0 +1,32 @@
+.lyrics {
+	h1 {
+		font-size: 3.2rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		font-size: 1.6rem;
+		margin-bottom: 1rem;
+	}
+
+	ul {
+		list-style: none;
+		li {
+			a {
+				width: fit-content;
+				background-color: hsl(0, 100%, 62%);
+				margin-bottom: 0.5rem;
+				color: hsl(0, 100%, 99%);
+				padding: 1rem 2rem;
+				display: block;
+				font-size: 1.6rem;
+
+				transition: all 250ms ease-in-out;
+				&:hover {
+					background-color: hsl(0, 80%, 43%);
+					font-weight: 800;
+				}
+			}
+		}
+	}
+}

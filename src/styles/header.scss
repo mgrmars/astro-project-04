@@ -1,0 +1,41 @@
+header {
+	font-size: 1.6rem;
+	padding: 2rem;
+
+	width: fit-content;
+	margin: auto;
+
+	text-align: center;
+
+	.logo {
+        font-size: 2rem;
+        font-style: italic;
+        text-transform: lowercase;
+        margin-bottom: 2rem;
+		display: block;
+		font-weight: 800;
+	}
+
+	nav {
+		ul {
+			list-style: none;
+			display: flex;
+			li {
+				a {
+					padding: 1rem 2rem;
+					background-color: hsl(0, 71%, 92%);
+
+					margin: 0 0.8rem;
+					display: block;
+
+					transition: all 250ms ease-in-out;
+
+					&:hover {
+						font-weight: 800;
+						background-color: hsl(0, 42%, 81%);
+					}
+				}
+			}
+		}
+	}
+}
